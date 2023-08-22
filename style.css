@@ -1,0 +1,455 @@
+/** @format */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+main {
+  min-height: 100vh;
+}
+.hero_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section__nav--small {
+  background-color: #37c38f;
+  width: 100%;
+  height: 6vh;
+  color: #ffffff;
+  position: absolute;
+}
+.nav__col {
+  min-width: 50%;
+  padding: 4px;
+}
+.nav__col.date {
+  text-align: left;
+}
+.nav__col.contact {
+  text-align: right;
+}
+.nav__col .mail {
+  margin-right: 12px;
+}
+
+.nav--small__row {
+  height: 6vh;
+}
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-section__nav--big {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 4px 8px 0px #00000012;
+  position: absolute;
+  width: 100%;
+  top: 44px;
+}
+.nav--big__row {
+  height: 10vh;
+}
+.nav--menu {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: end;
+}
+.active {
+  font-weight: 700;
+}
+.nav--items {
+  padding: 2px;
+  margin-left: 20px;
+  list-style: none;
+  color: #6b758e;
+  font-size: 16px;
+}
+.btn--white {
+  color: #37c38f;
+  font-size: 16px;
+  font-weight: 700;
+  width: 152px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 12px 25px 0px #0000000d;
+}
+.time {
+  display: flex;
+  align-items: center;
+}
+.nav--icon {
+  margin-right: 3px;
+}
+
+.hero-section__container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  /* z-index: -1; */
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+}
+.hero-section__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.section__content--nav {
+  width: 50%;
+}
+.content--background {
+  background-image: url("./images/group-doctor.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1153.1409912109375px;
+  background-size: contain;
+  height: 1153.1409912109375px;
+}
+.section__content--header {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b4d5f;
+}
+.content-info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+}
+.section__content--booking--apointment {
+  width: 100%;
+}
+.appointment__section {
+  width: 835px;
+  height: 151.2991485595703px;
+  /* top: 564px;
+  left: 134px; */
+  border-radius: 10px;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 20px;
+  z-index: 99;
+  box-shadow: 0px 14.273504257202148px 49.9572639465332px 0px #00000017;
+}
+.book__appointment {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.appointment__info {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b4d5f;
+  margin-right: 14px;
+}
+.appointment__steps {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+  margin-left: 18px;
+}
+.appointment__icon {
+  margin-right: 8px;
+}
+.appointment__btn {
+  width: 107.05128479003906px;
+  height: 37.82478713989258px;
+  border-radius: 10px;
+  background: #37c38f;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+.appointment__icon__search {
+  margin-left: 8px;
+}
+.appointment__activities__section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.appointment__activities {
+  width: 242.64956665039062px;
+  height: 48.52991485595703px;
+  color: #d1d0d0;
+  border: 0.71px solid #d1d0d0;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+.appointment__img {
+  margin-right: 10px;
+}
+.appointment__activities small {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+}
+.appointment__activities span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b4d5f;
+}
+
+.hero__logo__sectiom {
+  width: 100%;
+  margin-top: 20px;
+}
+.hero__logo_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  width: 100%;
+}
+.logo__section {
+  width: 20%;
+}
+
+.services__section {
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 40px;
+}
+.services__section__container {
+  width: 1100px;
+  height: 326px;
+  border-radius: 15px;
+  margin: auto;
+  background: #37c38f;
+  padding: 10px 60px;
+}
+
+.services__health {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.services__health h3 {
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.services__health p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.services__health__btn {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: #6b758e;
+  background-color: #ffffff;
+  border: none;
+  width: 276px;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+.services__activities__section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.services__activities {
+  padding: 10px 10px;
+  width: 270px;
+  height: 200px;
+  align-items: center;
+  display: flex;
+}
+.services__activities__card {
+  box-shadow: 0px 20px 45px 0px #00000014;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-radius: 15px;
+  color: #d1d0d0;
+}
+.services__activities__header {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222428;
+}
+.services__activities__subText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+}
+
+.our__vision_mission_section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.vision_mission h2 {
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222428;
+}
+.vision_mission p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+}
+.vision_mission .quote {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+}
+.vision__icon {
+  display: flex;
+  align-items: center;
+}
+.vision_mission span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6b758e;
+  margin-right: 20px;
+}
+.vision_mission span img {
+  margin-right: 10px;
+}
+
+.virtual__dentist__section {
+  width: 100%;
+  min-height: 60vh;
+}
+.virtual__dentist__header {
+  text-align: center;
+  width: 100%;
+}
+.virtual__dentist__header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  color: #222428;
+}
+.virtual__dentist__btn {
+  width: 205px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #37c38f;
+  background: none;
+}
+.virtual__dentist {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.virtual__dentist__activities {
+  width: 370px;
+  height: 436px;
+  border-radius: 15px;
+  background: #eaf6ff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.virtual__dentist__bio {
+  position: absolute;
+  background: #ffffff;
+  width: 280px;
+  height: 100px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 45px 0px #00000014;
+  margin-bottom: -68px;
+}
+.virtual__dentist__bio h6 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #10375c;
+  margin: 0;
+  padding: 0;
+}
+.virtual__dentist__bio p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6b758e;
+}
+.virtual__dentist__slide {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.virtual__dentist__slide img {
+  margin-right: 18px;
+}

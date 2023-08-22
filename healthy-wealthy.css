@@ -1,0 +1,51 @@
+/** @format */
+
+.healthy_wealthy_section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.healthy_wealthy_section__container {
+  width: 1100px;
+  height: 400px;
+  border-radius: 15px;
+  margin: auto;
+  background: #37c38f;
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+}
+.healthy_wealthy_img {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  text-align: center;
+}
+.healthy_wealthy_img img {
+  margin-top: -110px;
+}
+.healthy_wealthy_info {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.healthy_wealthy_info__content {
+  width: 100%;
+  color: #ffffff;
+}
+.healthy_wealthy_info__content h3 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0;
+}
+.healthy_wealthy_info__content p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
