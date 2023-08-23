@@ -35,7 +35,15 @@ main {
 .nav__col .mail {
   margin-right: 12px;
 }
-
+.hero__logo {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4b4d5f;
+}
 .nav--small__row {
   height: 6vh;
 }
@@ -238,7 +246,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
 }
 .logo__section {
@@ -329,6 +337,19 @@ main {
   color: #6b758e;
 }
 
+.vission__btn {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  width: 170px;
+  height: 63.97649002075195px;
+  border-radius: 15px;
+  background: #37c38f;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+}
 .our__vision_mission_section {
   width: 100%;
   min-height: 100vh;
@@ -452,4 +473,32 @@ main {
 }
 .virtual__dentist__slide img {
   margin-right: 18px;
+}
+
+.bg--sky__blue {
+  background: #c0effd;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 740px;
+  top: 150px;
+}
+.bg--sky__pink {
+  background: #fdbebf;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 120px;
+  bottom: 10px;
+}
+.bg--big__sky__blue {
+  background: #c0effd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 60px;
+  bottom: 28px;
 }
